@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Lista/Lista.h"
+#include "Lista/CircList.h"
 using namespace std;
 
 /*
@@ -34,6 +34,13 @@ código proporcionado).
 muestra el resultado.
 */
 
+struct contacto
+{
+    int num;
+    string name;
+};
+
+
 int main(){
     int op;
     bool c=1;
@@ -46,16 +53,19 @@ int main(){
     {
         switch (op){
         case 1:
-            /* code */
+            addCont();
             break;
         case 2:
-            /* code */
+            mostrarCont();
             break;
         case 3:
-            /* code */
+            searchCont();
             break;
         case 4:
-            /* code */
+            eliminarCont();
+            break;
+        case 5:
+            contCont();
             break;
         default:
             cout<<"Saliendo del programa...";
@@ -64,4 +74,23 @@ int main(){
         }
     }
     return 0;
+}
+void addCont(){
+    
+}
+
+void mostrarCont(){
+
+}
+
+void searchCont(){
+
+}
+
+void eliminarCont(){
+
+}
+
+int contCont(){
+    
 }

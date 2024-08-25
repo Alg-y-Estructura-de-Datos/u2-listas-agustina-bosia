@@ -30,7 +30,7 @@ eliminar al estudiante de la lista.
 
 5. Contar Estudiantes:
 
-○ Usa el método getTamanio() para contar el número de estudiantes en la lista
+○ Usa el método getTamanio() para Estuar el número de estudiantes en la lista
 y muestra el resultado
  */
 
@@ -38,28 +38,27 @@ int main(){
     int op;
     bool c=1;
 
-    cout<<"Ingrese una opción: \n 1- Agregar Estudiantes \n 2- Mostrar Estudiantes"<<endl;
-    cout<<" 3- Buscar un Estudiante por Nombre \n 4- Eliminar un Estudiante por nombre \n 5- Contar estudiante\n";
-    cout<<" 6- Salir \n";
+    cout<<"Ingrese una opción: \n 1- Agregar Estuactos \n 2- Mostrar Estuactos"<<endl;
+    cout<<" 3- Buscar un Estuacto por Nombre \n 4- Eliminar un Estuacto por nombre \n 5- Salir\n";
     cin>>op;
 
     while (c)
     {
         switch (op){
         case 1:
-            /* code */
+            addEstu();
             break;
         case 2:
-            /* code */
+            mostrarEstu();
             break;
         case 3:
-            /* code */
+            searchEstu();
             break;
         case 4:
-            /* code */
+            eliminarEstu();
             break;
         case 5:
-            /* code */
+            EstuEstu();
             break;
         default:
             cout<<"Saliendo del programa...";
@@ -68,4 +67,23 @@ int main(){
         }
     }
     return 0;
+}
+void addEstu(){
+    
+}
+
+void mostrarEstu(){
+
+}
+
+void searchEstu(){
+
+}
+
+void eliminarEstu(){
+
+}
+
+int EstuEstu(){
+    
 }
