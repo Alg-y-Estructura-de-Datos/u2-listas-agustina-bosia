@@ -1,3 +1,7 @@
+#include <iostream>
+#include "Lista/Lista.h"
+using namespace std;
+
 /*
 
  Utilizando esta estructura, crea un programa que gestione una lista circular
@@ -28,6 +32,36 @@ código proporcionado).
 5. Contar Contactos:
 ○ Usa el método getTamanio() para contar el número de contactos en la lista y
 muestra el resultado.
+*/
 
+int main(){
+    int op;
+    bool c=1;
 
- */
+    cout<<"Ingrese una opción: \n 1- Agregar Contactos \n 2- Mostrar contactos"<<endl;
+    cout<<" 3- Buscar un contacto por Nombre \n 4- Eliminar un contacto por nombre \n 5- Salir\n";
+    cin>>op;
+
+    while (c)
+    {
+        switch (op){
+        case 1:
+            /* code */
+            break;
+        case 2:
+            /* code */
+            break;
+        case 3:
+            /* code */
+            break;
+        case 4:
+            /* code */
+            break;
+        default:
+            cout<<"Saliendo del programa...";
+            return 0;
+            break;
+        }
+    }
+    return 0;
+}
