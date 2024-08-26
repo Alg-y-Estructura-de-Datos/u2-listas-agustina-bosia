@@ -40,13 +40,32 @@ struct contacto
     string name;
 };
 
+void addCont(){
+    
+}
+
+void mostrarCont(){
+
+}
+
+void searchCont(){
+
+}
+
+void eliminarCont(){
+
+}
+
+int contCont(){
+    
+}
 
 int main(){
     int op;
     bool c=1;
 
     cout<<"Ingrese una opción: \n 1- Agregar Contactos \n 2- Mostrar contactos"<<endl;
-    cout<<" 3- Buscar un contacto por Nombre \n 4- Eliminar un contacto por nombre \n 5- Salir\n";
+    cout<<" 3- Buscar un contacto por Nombre \n 4- Eliminar un contacto por nombre \n 5- Contar contactos\n 6- Salir\n";
     cin>>op;
 
     while (c)
@@ -75,22 +94,4 @@ int main(){
     }
     return 0;
 }
-void addCont(){
-    
-}
 
-void mostrarCont(){
-
-}
-
-void searchCont(){
-
-}
-
-void eliminarCont(){
-
-}
-
-int contCont(){
-    
-}

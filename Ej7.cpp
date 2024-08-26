@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Lista/Lista.h"
+#include "Lista/ListaDoble.h"
 using namespace std;
 /*
  Utiliza la clase ListaDoble para gestionar una lista de estudiantes, donde cada estudiante
@@ -33,6 +33,26 @@ eliminar al estudiante de la lista.
 ○ Usa el método getTamanio() para Estuar el número de estudiantes en la lista
 y muestra el resultado
  */
+
+void addEstu(){
+    
+}
+
+void mostrarEstu(){
+
+}
+
+void searchEstu(){
+
+}
+
+void eliminarEstu(){
+
+}
+
+int EstuEstu(){
+    
+}
 
 int main(){
     int op;
@@ -68,22 +88,4 @@ int main(){
     }
     return 0;
 }
-void addEstu(){
-    
-}
 
-void mostrarEstu(){
-
-}
-
-void searchEstu(){
-
-}
-
-void eliminarEstu(){
-
-}
-
-int EstuEstu(){
-    
-}
